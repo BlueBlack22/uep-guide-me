@@ -1,0 +1,56 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+#content {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero img {
+  height: 2vh;
+  width: auto;
+}
+
+.hero-main {
+  font-size: 6vh;
+  margin: 3vh;
+}
+
+.hero-desc {
+  font-size: 2vh;
+}
+
+.selection {
+  text-align: center;
+}
+
+.selection p {
+  font-size: 2vh;
+}
+
+.tiles {
+  display: flex;
+  gap: 3vw;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 30vw;
+  border: 1px solid black;
+}

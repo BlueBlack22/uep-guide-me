@@ -1,12 +1,14 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
+html {
   height: 100vh;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
 #content {
-  margin-top: 20vh;
+  margin-top: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,6 +53,20 @@ body {
   justify-content: center;
   align-items: center;
   height: 30vh;
-  width: 30vw;
+  width: 15vw;
   border: 1px solid black;
+}
+
+.bottom {
+  text-align: center;
+}
+
+.bottom p {
+  font-size: 2vh;
+}
+
+.login {
+  border: 1px solid green;
+  height: 4vh;
+  font-size: 3vh;
 }

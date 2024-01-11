@@ -5,21 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/register-tourist.css" />
     <title>Guide.me</title>
+    <script src="../scripts/register-tourist.js" defer></script>
   </head>
   <body>
     <div class="container">
-      <form id="registrationForm" onsubmit="validateForm()">
-        <h2>Registration</h2>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required />
+      <form id="registrationForm">
+        <h2>Zarejestruj się jako podróżnik!</h2>
+        <label for="firstname">Imię:</label>
+        <input type="text" id="firstname" name="firstname" required />
+
+        <label for="lastname">Nazwisko:</label>
+        <input type="text" id="lastname" name="lastname" required />
 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required />
 
-        <label for="password">Password:</label>
+        <label for="username">Nazwa użytkownika:</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="address">Adres:</label>
+        <input type="text" id="address" name="address" required />
+
+        <label for="password">Hasło:</label>
         <input type="password" id="password" name="password" required />
 
-        <label for="confirmPassword">Confirm Password:</label>
+        <label for="confirmPassword">Powtórz hasło:</label>
         <input
           type="password"
           id="confirmPassword"

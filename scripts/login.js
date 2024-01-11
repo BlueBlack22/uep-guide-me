@@ -17,8 +17,7 @@ function validateForm() {
   let userFound = false;
 
   if (name === "" || pass === "") {
-    alert("Username and password are required.");
-    return false;
+    alert("Uzupełnij wszystkie pola.");
   }
 
   for (let i in userDB) {
@@ -27,13 +26,13 @@ function validateForm() {
       if (userDB[i].password == pass) {
         window.location = "./tourist-home.html";
       } else {
-        alert("Password is wrong");
+        alert("Hasło nie pasuje.");
       }
     }
   }
 
   if (userFound == false) {
-    alert("Account not in database");
+    alert("Użytkownik o podanym mailu nie istnieje.");
   }
 }
 

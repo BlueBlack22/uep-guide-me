@@ -65,7 +65,7 @@ body {
   font-size: 2vh;
 }
 
-.login {
+#login {
   border: 1px solid green;
   height: 4vh;
   font-size: 3vh;

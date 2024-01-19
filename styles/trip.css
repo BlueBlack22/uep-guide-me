@@ -177,8 +177,8 @@ input {
 .content {
   background-color: rgb(168, 204, 245);
   display: grid;
-  grid-template-columns: 6fr 2fr;
-  grid-template-rows: 4vh 1fr;
+  grid-template-columns: 2fr 3fr 2fr;
+  grid-template-rows: 3fr 2fr;
 }
 
 .section-header {
@@ -189,73 +189,114 @@ input {
   font-weight: 600;
 }
 
-.content-left {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-auto-rows: max-content;
-  gap: 15px;
-  padding: 15px;
-}
-
 .card {
   border: 1px solid white;
   border-radius: 10px;
   background-color: white;
-  border-left: 8px solid yellow;
-  height: 200px;
-  cursor: pointer;
-}
-
-.card-header,
-.card-text {
-  padding: 15px;
-}
-
-.card-header {
-  font-weight: 600;
-}
-
-.card-buttons {
-  display: flex;
-  gap: 5px;
-  justify-content: end;
-  align-items: end;
-  padding: 30px;
-}
-
-.content-right {
-  padding: 15px;
-}
-
-.content-right div {
-  border: 1px solid white;
-  border-radius: 10px;
-  background-color: white;
-}
-
-.trending-card {
-  display: grid;
+  margin: 10px;
   padding: 10px;
 }
 
-.trending-card div {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 5px;
-  padding: 5px;
+.profile,
+.trip {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   align-items: center;
+  justify-content: space-evenly;
 }
 
-.trending-icon {
-  grid-row: 1 / 3;
+.profile-pic {
+  height: 25vh;
 }
 
-.trending-card > div p:first-of-type {
-  align-self: flex-end;
+.trip-header {
+  font-size: 2rem;
 }
 
-.trending-card > div p:last-of-type {
-  align-self: flex-start;
-  font-size: 1.1rem;
+.slider,
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+#signup-btn {
+  border: 1px solid green;
+  border-radius: 10px;
+  font-size: 4rem;
+  padding: 10px;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px;
+  padding: 10px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.comment {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#homepage-icon,
+#homepage-icon {
+  display: inline-block;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }

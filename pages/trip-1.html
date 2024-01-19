@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guide.me</title>
+    <link rel="stylesheet" href="../styles/trip.css" />
+    <script src="../scripts/trip1.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="logo">
+          <img src="../images/icons//apps.svg" id="logo-icon" alt="logo" />
+          <p>Guide.me</p>
+        </div>
+        <div class="main-btn">
+          <img id="homepage-icon" src="../images/icons//home.svg" class="sidebar-icon" alt="" />
+          <a id="homepage-link">Strona główna</a>
+          <img src="../images/icons//account.svg" class="sidebar-icon" alt="" />
+          <a>Profil</a>
+          <img src="../images/icons//email.svg" class="sidebar-icon" alt="" />
+          <a>Wiadomości</a>
+          <img src="../images/icons//history.svg" class="sidebar-icon" alt="" />
+          <a>Historia</a>
+          <img
+            src="../images/icons//calendar-check.svg"
+            class="sidebar-icon"
+            alt=""
+          />
+          <a>Rezerwacje</a>
+          <img
+            src="../images/icons//account-group.svg"
+            class="sidebar-icon"
+            alt=""
+          />
+          <a>Grupy</a>
+        </div>
+        <div class="secondary-btn">
+          <img src="../images/icons//cog.svg" class="sidebar-icon" alt="" />
+          <a>Ustawienia</a>
+          <img src="../images/icons/wrench.svg" class="sidebar-icon" alt="" />
+          <a>Wsparcie</a>
+          <img src="../images/icons//shield.svg" class="sidebar-icon" alt="" />
+          <a>Prywatność</a>
+        </div>
+        <div id="ad"></div>
+      </div>
+
+      <div class="header">
+        <div class="header-left">
+          <img
+            src="../images/icons//magnify.svg"
+            class="small-icon"
+            alt="search-icon"
+          />
+          <input type="text" />
+        </div>
+
+        <div class="header-right">
+          <img
+            src="../images/icons//bell-ring.svg"
+            class="small-icon"
+            alt="notif-icon"
+          />
+          <img
+            src="../images/icons//account-circle.svg"
+            class="user-icon"
+            alt="user-icon"
+          />
+          <p>Jan Kowalski</p>
+        </div>
+      </div>
+
+      <div class="user">
+        <div class="user-left">
+          <img
+            src="../images/icons//account-circle.svg"
+            class="user-icon-big"
+            alt="user-icon"
+          />
+          <p id="greeting">Dzień dobry,</p>
+          <p>Janie Kowalski (@jan.kowalski)</p>
+        </div>
+
+        <div class="user-right">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="card profile">
+          <img
+            class="profile-pic"
+            src="../images/icons/account-circle.svg"
+            alt="zdjęcie profilowe"
+          />
+          <p class="section-header">Imię Nazwisko</p>
+          <p>Dane kontaktowe:</p>
+          <ul>
+            <li>Telefon</li>
+            <li>Mail</li>
+          </ul>
+          <p>
+            Kilka słów o przewodniku Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+          </p>
+        </div>
+
+        <div class="card trip">
+          <p class="section-header trip-header">Tytuł wycieczki</p>
+          <ul>
+            <li>Cena: 5zł</li>
+            <li>Czas trwania: 7 dni</li>
+            <li>Destynacja: Plaża w Stegnie</li>
+          </ul>
+          <p>
+            Opis wycieczki i jej dokładny plan Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.
+          </p>
+          <ul>
+            <p>Jakaś dodatkowa lista:</p>
+            <li>Zawierająca</li>
+            <li>jakieś</li>
+            <li>informacje</li>
+          </ul>
+        </div>
+
+        <div class="slider">
+          <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="../images/lotad.png" style="width: 100%" />
+              <div class="text">Tekst obrazka</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="../images/lotad.png" style="width: 100%" />
+              <div class="text">Kolejny tekst obrazka</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="../images/lotad.png" style="width: 100%" />
+              <div class="text">Inny tekst obrazka</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="signup">
+          <button id="signup-btn">Zapisz się!</button>
+        </div>
+
+        <div class="card comments">
+          <p class="section-header">Komentarze</p>
+
+          <div class="comment">
+            <p class="section-header">Katarzyna &#9733 &#9733 &#9733 &#9733 &#9733</p>
+            <p class="comment-text">
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+          </p>
+          </div>
+
+          <div class="comment">
+            <p class="section-header">Katarzyna &#9733 &#9733 &#9733 &#9733 &#9733</p>
+            <p class="comment-text">
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

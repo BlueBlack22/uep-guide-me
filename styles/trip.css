@@ -21,7 +21,7 @@ body {
 }
 
 .sidebar {
-  background-color: rgb(96, 96, 182);
+  background-color: #028090;
   grid-row: 1 / 4;
   display: grid;
   grid-template-rows: auto auto auto 1fr;
@@ -168,14 +168,14 @@ input {
   width: 100px;
   height: 40px;
   border-radius: 20px;
-  background-color: rgb(96, 96, 182);
+  background-color: #028090;
   color: white;
   font-weight: 600;
-  border: 1px solid rgb(96, 96, 182);
+  border: 1px solid #028090;
 }
 
 .content {
-  background-color: rgb(168, 204, 245);
+  background-color: #aedbe1;
   display: grid;
   grid-template-columns: 2fr 3fr 2fr;
   grid-template-rows: 3fr 2fr;
@@ -212,6 +212,7 @@ input {
 
 .profile-pic {
   height: 25vh;
+  max-width: 25vw;
 }
 
 .trip-header {
@@ -227,10 +228,14 @@ input {
 }
 
 #signup-btn {
-  border: 1px solid green;
+  border: 1px solid #028090;
   border-radius: 10px;
   font-size: 4rem;
   padding: 10px;
+}
+
+#signup-btn:hover {
+  background-color: rgb(224, 191, 0);
 }
 
 .comments {

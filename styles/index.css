@@ -5,6 +5,9 @@ html {
 body {
   padding: 0;
   margin: 0;
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #content {
@@ -54,11 +57,21 @@ body {
   align-items: center;
   height: 30vh;
   width: 15vw;
-  border: 1px solid black;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.tile:hover {
+  border: 5px solid gray;
+}
+
+.tile p {
+  font-size: 2rem;
 }
 
 .bottom {
   text-align: center;
+  margin: 10px;
 }
 
 .bottom p {
@@ -66,7 +79,28 @@ body {
 }
 
 #login {
-  border: 1px solid green;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0 10px 0 10px;
   height: 4vh;
   font-size: 3vh;
+}
+
+#login:hover {
+  background-color: rgb(224, 191, 0);
+}
+
+#logo-img {
+  height: 200px;
+  width: auto;
+}
+
+.icon {
+  height: 150px;
+  width: auto;
+}
+
+.tile,
+#login {
+  cursor: pointer;
 }

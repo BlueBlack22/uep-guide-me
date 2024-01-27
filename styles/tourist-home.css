@@ -21,7 +21,7 @@ body {
 }
 
 .sidebar {
-  background-color: rgb(96, 96, 182);
+  background-color: #028090;
   grid-row: 1 / 4;
   display: grid;
   grid-template-rows: auto auto auto 1fr;
@@ -168,14 +168,14 @@ input {
   width: 100px;
   height: 40px;
   border-radius: 20px;
-  background-color: rgb(96, 96, 182);
+  background-color: #028090;
   color: white;
   font-weight: 600;
-  border: 1px solid rgb(96, 96, 182);
+  border: 1px solid #028090;
 }
 
 .content {
-  background-color: rgb(168, 204, 245);
+  background-color: #e7dfc6;
   display: grid;
   grid-template-columns: 6fr 2fr;
   grid-template-rows: 4vh 1fr;
@@ -201,7 +201,7 @@ input {
   border: 1px solid white;
   border-radius: 10px;
   background-color: white;
-  border-left: 8px solid yellow;
+  border-left: 8px solid #028090;
   height: 200px;
   cursor: pointer;
 }

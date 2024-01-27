@@ -45,3 +45,8 @@ homeLink.addEventListener(
 signUp.addEventListener("click", () => {
   alert("Wysłano zgłoszenie! Oczekuj kontaktu z przewodnikiem.");
 });
+
+document.querySelector("#logout").addEventListener("click", () => {
+  window.location = "../index.html";
+  alert("Nastąpiło wylogowanie");
+});

@@ -31,3 +31,8 @@ document.querySelector("#trip4").addEventListener("click", () => {
 document.querySelector("#trip5").addEventListener("click", () => {
   window.location = "./trip-5.html";
 });
+
+document.querySelector("#logout").addEventListener("click", () => {
+  window.location = "../index.html";
+  alert("Nastąpiło wylogowanie");
+});

@@ -158,7 +158,7 @@ input {
 
 .user-right {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 2vw;
   align-items: center;
   padding-right: 30px;
@@ -258,4 +258,8 @@ input {
 .trending-card > div p:last-of-type {
   align-self: flex-start;
   font-size: 1.1rem;
+}
+
+#logout {
+  cursor: pointer;
 }

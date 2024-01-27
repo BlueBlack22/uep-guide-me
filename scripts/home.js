@@ -13,6 +13,9 @@ ad.addEventListener("click", () => {
 });
 
 document.querySelector("#trip1").addEventListener("click", () => {
-  console.log("clicked");
   window.location = "./trip-1.html";
+});
+
+document.querySelector("#trip2").addEventListener("click", () => {
+  window.location = "./trip-2.html";
 });

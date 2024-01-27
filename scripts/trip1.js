@@ -20,6 +20,7 @@ const ad = document.querySelector("#ad");
 const greeting = document.querySelector("#greeting");
 const homeIcon = document.querySelector("#homepage-icon");
 const homeLink = document.querySelector("#homepage-link");
+const signUp = document.querySelector("#signup-btn");
 
 if (time.getHours() >= 17 || time.getHours() <= 3) {
   greeting.textContent = "Dobry wieczór,";
@@ -40,3 +41,7 @@ homeLink.addEventListener(
   "click",
   () => (window.location = "./tourist-home.html")
 );
+
+signUp.addEventListener("click", () => {
+  alert("Wysłano zgłoszenie! Oczekuj kontaktu z przewodnikiem.");
+});

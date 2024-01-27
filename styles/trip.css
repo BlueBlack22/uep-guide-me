@@ -206,6 +206,10 @@ input {
   justify-content: space-evenly;
 }
 
+.profile {
+  text-align: center;
+}
+
 .profile-pic {
   height: 25vh;
 }

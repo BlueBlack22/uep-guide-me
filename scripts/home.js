@@ -19,3 +19,7 @@ document.querySelector("#trip1").addEventListener("click", () => {
 document.querySelector("#trip2").addEventListener("click", () => {
   window.location = "./trip-2.html";
 });
+
+document.querySelector("#trip3").addEventListener("click", () => {
+  window.location = "./trip-3.html";
+});
